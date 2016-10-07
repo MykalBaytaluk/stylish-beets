@@ -17,8 +17,16 @@ img {
 }
 
 ul, ol, dl {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-weight: normal;
+}
+
+ol {
+  list-style-type: lower-greek;
+}
+
+.serving {
+  font-style: italic;
 }
 
 a:hover {

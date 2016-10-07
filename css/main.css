@@ -8,12 +8,20 @@ h1, h2 {
   color: #3f1622;
 }
 
-header + h1 {
+.days {
   font-weight: bold;
+}
+
+dt, dt {
+  font-weight: bolder;
 }
 
 img {
   width: 100%;
+}
+
+figure {
+  font-size: 1.125rem;
 }
 
 ul, ol, dl {
@@ -21,7 +29,18 @@ ul, ol, dl {
   font-weight: normal;
 }
 
-ol {
+blockquote {
+  text-align: center;
+  font-size: 1.125rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+ul {
+  font-size: 0.8rem;
+}
+
+h2 + ol {
   list-style-type: lower-greek;
 }
 
